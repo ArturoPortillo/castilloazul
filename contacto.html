@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="shortcut Icon" href="img/castle.png" type="image/x-icon">
+     <!-- Google Fonts -->
+     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+      <!--Font Awesome-->
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/styles.css"/>
+    <title>Castillo Azul con Grid</title>
+</head>
+<body id="grid">
+    <!-- Header -->
+<header>
+    <a class="header__logo" href="index.html">
+        <img class="header__logo" src="img/logocastle.png" alt="Criadero Castillo Azul">
+    </a>
+
+<!-- Nav -->
+<nav>
+    <ul class="nav__list">
+        <li class="nav__link"><a class="nav__text" href="index.html">Inicio</a></li>
+        <li class="nav__link"><a class="nav__text" href="nosotros.html">Sobre nosotros</a></li>
+        <li class="nav__link"><a class="nav__text" href="adultos.html">Adultos</a></li>
+        <li class="nav__link"><a class="nav__text" href="cachorritos.html">Cachorritos</a></li>
+        <li class="nav__link"><a class="nav__text" href="contacto.html">Contacto</a></li>
+    </ul>
+</nav>
+</header>
+<!-- Hero -->
+<main class="contactForm">
+    <section>
+        <div class="formFrame">
+           <form>
+           <fieldset  class="formTable">
+               <legend>Contacto</legend>
+               <label class="formText" for="Nombre">Nombre:</label>
+               <input class="box" type="Text" name="Nombre" ID="Nombre" Placeholder="Nombre">
+               <br />
+               <label class="formText" for="Apellido">Apellido:</label>
+               <input class="box" type="Text" name="Apellido" ID="Apellido" placeholder="Apellido">
+               <br />
+               <label class="formText" for="E-mail">E-mail:</label>
+               <Input class="box" type="Text" name="E-mail" ID="E-mail" placeholder="E-mail">
+               <br />
+               <div class="formText"><input class="checkbox" type="checkbox" name="acepta" value="1">Suscribirme al newsletter para recibir novedades</div>
+               <br />
+               <Label class="formText" for="Comentarios">Comentarios</Label>
+               <br />
+               <textarea class="formText" name="Comentarios" id="comentarios" cols="30" rows="10"></textarea>
+               <br />
+           <input class="btn" type="submit" name="Enviar">
+           <input class="btn" type="reset" name="Limpiar">
+           </fieldset>
+       </form>
+       <img class="filler--img" src="https://place-puppy.com/350x350" width="350" height="350"> 
+       </div>           
+    </section>
+</main>
+<!-- Footer -->
+<footer>
+    <h4 class="footNote">Suscribete a nuestro <a class="footNote--link" href="contacto.html">Newsletter</a> para recibir novedades</h4>
+    <h4 class="footer--title">Nuestras Redes:</h4>
+    <div class="footer__logos">
+        <a class="footer--ig" href="https://www.instagram.com/criaderocastilloazul/?hl=es">
+            <i class="fab fa-instagram-square"></i></a>
+        <a class="footer--fb" href="https://www.facebook.com/CriaderoCastilloAzul/?hl=es">
+            <i class="fab fa-facebook-square"></i></a>
+        <a class="footer--wp" href="index.html">
+            <i class="fab fa-whatsapp-square"></i></a>
+    </div>
+    
+</body>
+</html>
