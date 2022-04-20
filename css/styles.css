@@ -34,9 +34,6 @@ header {
   text-align: center;
   color: #072a40;
   background-color: #f9f7f0;
-  animation: pulse;
-  animation-duration: 1s;
-  animation-timing-function: ease;
 }
 
 .cachorrito__nombre {
