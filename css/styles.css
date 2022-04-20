@@ -71,6 +71,10 @@ footer {
   box-shadow: 0px 4px 12px 3px black;
 }
 
+.filler--img {
+  border-radius: 15px;
+}
+
 
 /* Keyframes 
 @keyframes todd_card {

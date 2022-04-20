@@ -25,7 +25,7 @@
     <!-- CSS -->  
     <link rel="stylesheet" href="css/styles.css"/>
     <!-- Title -->
-    <title>Castillo Azul con Bootstrap</title>
+    <title>Castillo Azul</title>
 </head>
 <header>
     <div class="row m-4">
@@ -55,8 +55,9 @@
 </header>
 <body>
 <main>
-<div class="container d-flex justify-content-center p-5">
-       <div class="form p-5 col-md-6 col-lg-6 bg-white">
+<div class="container d-flex justify-content-around p-5">
+    <div class="row">
+       <div class="form p-5 col-sm-12 col-md-6 col-lg-6 bg-white">
         <div>
             <label for="" class="form-label">Nombre</label>
             <input type="nombre" class="form-control" placeholder="Nombre">
@@ -70,16 +71,17 @@
             <input type="nombre" class="form-control" placeholder="Telefono">
         </div>
         <div class="mb-3">
-            <label for="" class="form-label">Comentarios:</label>
+            <label for="" class="form-label">Consultanos:</label>
             <textarea class="form-control" rows="3"></textarea>
         </div>
         <input class="btn bg-white border" type="submit" name="Enviar">
         <input class="btn bg-white border" type="reset" name="Limpiar">
         </div>   
-        <div>
-            <img class="filler--img col-sm-12 img-fluid" src="https://place-puppy.com/350x350" width="350" height="350">
+        <div class="col-sm-12 col-md-6 col-lg-6">
+            <img class="filler--img col-sm-12 col-md-6 col-lg-12 img-fluid mt-5" src="gallery/contact.png" width="350" height="350">
         </div>  
 </div> 
+</div>
 
 </main>
 <!-- Footer -->
