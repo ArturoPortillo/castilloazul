@@ -1,0 +1,9 @@
+ 
+  body {
+    background-image: url(https://i.ibb.co/cNkQx6p/backgroundpawsv2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+  }  
