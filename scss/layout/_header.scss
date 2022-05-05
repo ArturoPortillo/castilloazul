@@ -19,7 +19,7 @@ header {
                     &:hover {                 
                             background-color: $hero-text;
                             transform: translateY(-4px);
-                            transition-duration: 0.4s;
+                            transition-duration: 0.4s ease-in-out;
                             box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24);                        
                     }
         }  

@@ -3,9 +3,10 @@ footer {
     height: 100%;
     opacity: 0.70;
     box-shadow: $box-shadow;
- 
-        a {
-            color: $link-color;
-        }
-  }
-  
+};
+
+@each $icon, $color in $net-colors {
+    .#{$icon} {
+        color: $color;
+    }
+}

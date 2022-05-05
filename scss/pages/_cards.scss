@@ -1,0 +1,11 @@
+.card {
+@include card;
+
+    .card--name {
+        color: $hero-text; 
+
+        .introCard--text {
+            padding: 0.5rem;   
+            }   
+    }
+}

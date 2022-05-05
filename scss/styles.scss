@@ -1,15 +1,14 @@
-@import "globalsettings";
-@import "vars";
-@import "navbar";
-@import "bodylayout";
-@import "intro";
-@import "cards";
-@import "footer";
-@import "fillers"
+@import "base/globalsettings";
+@import "utils/mixins";
+@import "utils/vars";
+@import "utils/maps";
+@import "layout/header";
+@import "layout/bodylayout";
+@import "layout/footer";
+@import "pages/intro";
+@import "pages/fillers";
+@import "pages/cards";
 
+// ####### Desafio Sass II + Seo ####### //
 
-
-
-
-  
- 
+// Respecto al uso de SASS //
