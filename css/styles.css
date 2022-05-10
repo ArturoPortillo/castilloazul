@@ -4,6 +4,20 @@
   box-sizing: border-box;
 }
 
+/*#### Revisar Maps.scss #### No quise borrar este Map, porque me gusto hacerlo y me parecio interesante, si cambiamos los colores en la lista lo vemos funcionar en el footer.  */
+.filler--img {
+  border-radius: 15px;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
 header {
   background: linear-gradient(180deg, rgb(2, 0, 36) 0%, rgb(0, 177, 223) 0%, rgba(155, 242, 243, 0.869) 60%);
   opacity: 0.9;
@@ -13,20 +27,27 @@ header .nav-item {
   background-color: #178ca4;
   box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
-  color: #f9f7f0;
+  color: #ffffff;
+  list-style: none;
 }
 header .nav-item a {
   text-decoration: none;
-  color: #f9f7f0;
+  list-style: none;
+  color: #ffffff;
 }
 header .nav-item a:hover {
-  color: #f9f7f0;
+  color: #ffffff;
 }
 header .nav-item:hover {
   background-color: #0a3752;
   transform: translateY(-4px);
-  transition-duration: 0.4s;
+  transition-duration: 0.4s ease-in-out;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24);
+}
+
+.bi-list {
+  font-size: 2rem;
+  color: #178ca4;
 }
 
 body {
@@ -43,41 +64,96 @@ footer {
   height: 100%;
   opacity: 0.7;
   box-shadow: 0px 4px 12px 3px black;
+  color: white;
 }
 
+/* Uso del Map con @each*/
 .bi-instagram {
-  color: purple;
+  color: #f9f7f0;
 }
 
 .bi-facebook {
-  color: blue;
+  color: #f9f7f0;
 }
 
 .bi-whatsapp {
-  color: green;
+  color: #f9f7f0;
 }
 
 .intro {
   color: #0a3752;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
-
-.box, .box--1 {
-  opacity: 0.9;
-  border: 2px solid #0a3752;
-  border-radius: 10px;
+.intro .intro--header {
+  background-color: #6bd9ed;
+  padding-left: 0.5rem;
+  margin-bottom: 0;
+}
+.intro .intro--content {
+  background-color: #b1f5f6;
   padding: 1rem;
-  margin-bottom: 1.5rem;
-  background-color: #bbd0e2;
 }
 
-.box--1 {
-  background-color: #edf0f4;
+.carousel {
+  padding: 0;
 }
 
-.filler--img {
-  border-radius: 15px;
+.breed {
+  padding: 1rem;
+  background-color: #b1f5f6;
+  display: flex;
+  align-items: center;
 }
 
+.breed--photo {
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .box :nth-child(1) {
+    order: 1;
+  }
+
+  .box :nth-child(2) {
+    order: 2;
+  }
+
+  .box :nth-child(3) {
+    order: 1;
+  }
+
+  .box :nth-child(4) {
+    order: 2;
+  }
+
+  .box :nth-child(5) {
+    order: 1;
+  }
+
+  .box :nth-child(6) {
+    order: 2;
+  }
+
+  .box :nth-child(7) {
+    order: 1;
+  }
+
+  .box :nth-child(8) {
+    order: 1;
+  }
+
+  .breed {
+    padding: 2rem;
+  }
+
+  .breed--photo {
+    width: 100%;
+    height: auto;
+  }
+}
 .card {
   margin: 1rem;
   padding: 1rem;

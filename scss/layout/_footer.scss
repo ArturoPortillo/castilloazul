@@ -3,7 +3,10 @@ footer {
     height: 100%;
     opacity: 0.70;
     box-shadow: $box-shadow;
+    color: white;  
 };
+
+/* Uso del Map con @each*/
 
 @each $icon, $color in $net-colors {
     .#{$icon} {

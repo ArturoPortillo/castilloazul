@@ -6,8 +6,10 @@ $colors : (
     "link-color": $link-color,
 );
 
+/*#### Revisar Maps.scss #### No quise borrar este Map, porque me gusto hacerlo y me parecio interesante, si cambiamos los colores en la lista lo vemos funcionar en el footer.  */
+
 $net-colors : (
-    "bi-instagram" : purple,
-    "bi-facebook" : blue,
-    "bi-whatsapp": green,
-);
+    "bi-instagram" : #f9f7f0,
+    "bi-facebook" : #f9f7f0,
+    "bi-whatsapp": #f9f7f0,
+); 
