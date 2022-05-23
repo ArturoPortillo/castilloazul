@@ -6,6 +6,7 @@ footer {
     color: white;  
 };
 
+/*#### Revisar Maps.scss #### No quise borrar este Map, porque me gusto hacerlo y me parecio interesante, si le damos un color distinto a cada logo en el Map, lo vemos funcionar en el footer.  */
 /* Uso del Map con @each*/
 
 @each $icon, $color in $net-colors {
