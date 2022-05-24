@@ -27,6 +27,7 @@
     .box :nth-child(8) { order: 5; }        
 }
 
+/* Ajustado el texto para evitar que se desalineen las cajas pasada esta resolucion */
 @media (max-width: 990px) {
     .breed--text {
         font-size: 1rem;

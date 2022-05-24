@@ -14,6 +14,7 @@
     color: $background-color;
 }
 
+/* Cambio la fuente a partir de esta resolucion para evitar que las cards se deformen al tener texto muy largo. */
 @media (max-width: 1024px) {
     .card--name {
         font-size: 1.5rem;
