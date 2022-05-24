@@ -41,7 +41,7 @@ header .nav-item a:hover {
   box-shadow: none;
 }
 
-/* No me agradaba que los botones ocupen el 100% del Viewport en el menu hamburguesa*/
+/* No me agradaba que los botones de la navbar ocupen el 100% del Viewport en el menu hamburguesa por lo cual lo centre de esta forma.*/
 @media (max-width: 768px) {
   .nav-item {
     width: 50%;
