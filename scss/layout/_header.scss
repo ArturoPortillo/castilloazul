@@ -11,6 +11,9 @@ header {
             list-style: none;   
                         
                 a {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: clip;
                 text-decoration: none;
                 list-style: none;
                 color: $link-color;

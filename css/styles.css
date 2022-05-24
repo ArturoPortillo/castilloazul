@@ -17,6 +17,9 @@ header .nav-item {
   list-style: none;
 }
 header .nav-item a {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
   text-decoration: none;
   list-style: none;
   color: #ffffff;
