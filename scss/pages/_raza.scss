@@ -1,6 +1,6 @@
 .box {
 
-    .breed--text {
+    .breed {
         display: flex;
         align-items: center;
         padding: 1rem;
@@ -24,5 +24,11 @@
     .box :nth-child(5) { order: 4; }
     .box :nth-child(6) { order: 5; }
     .box :nth-child(7) { order: 6; }
-    .box :nth-child(8) { order: 5; }   
+    .box :nth-child(8) { order: 5; }        
+}
+
+@media (max-width: 990px) {
+    .breed--text {
+        font-size: 1rem;
+    }
 }

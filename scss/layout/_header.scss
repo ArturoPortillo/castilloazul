@@ -24,6 +24,10 @@ header {
         }  
     }  
 
+    .bi.bi-list {
+        color: $link-color;
+    }
+
     .navbar-toggler,
     .navbar-toggler:focus,
     .navbar-toggler:active,
@@ -32,3 +36,12 @@ header {
         border: none;
         box-shadow: none;
     }
+
+/* No me agradaba que los botones ocupen el 100% del Viewport en el menu hamburguesa*/    
+
+@media (max-width: 768px) {   
+    .nav-item {
+        width: 50%;
+        transform: translatex(50%);
+    } 
+}

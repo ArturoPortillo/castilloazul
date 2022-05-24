@@ -28,6 +28,10 @@ header .nav-item a:hover {
   color: #ffffff;
 }
 
+.bi.bi-list {
+  color: #ffffff;
+}
+
 .navbar-toggler,
 .navbar-toggler:focus,
 .navbar-toggler:active,
@@ -37,6 +41,13 @@ header .nav-item a:hover {
   box-shadow: none;
 }
 
+/* No me agradaba que los botones ocupen el 100% del Viewport en el menu hamburguesa*/
+@media (max-width: 768px) {
+  .nav-item {
+    width: 50%;
+    transform: translatex(50%);
+  }
+}
 body {
   background-image: url(https://i.ibb.co/cNkQx6p/backgroundpawsv2.png);
   background-repeat: no-repeat;
@@ -124,7 +135,12 @@ footer {
   color: #178ca4;
 }
 
-.box .breed--text {
+@media (max-width: 1024px) {
+  .card--name {
+    font-size: 1.5rem;
+  }
+}
+.box .breed {
   display: flex;
   align-items: center;
   padding: 1rem;
@@ -168,6 +184,11 @@ footer {
 
   .box :nth-child(8) {
     order: 5;
+  }
+}
+@media (max-width: 990px) {
+  .breed--text {
+    font-size: 1rem;
   }
 }
 .form {
