@@ -1,14 +1,20 @@
-.breed {
-    padding: 1rem;
-    background-color: $secondary-banner;
-    display: flex;
-    align-items: center;
+.box {
+
+    .breed--text {
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+        background-color: $secondary-banner;
+        color: $hero-text;
+        border: 1px solid #d1edf2;
+    }
+    
+    .breed--photo {
+        padding: 0;   
+    }
 }
 
-.breed--photo {
-    padding: 0;   
-}
-
+/* Esto tambien se pudo haber reorganizado con la funcion de "order-sm-{x}" de Bootstrap, pero lo hice asi y me parecio bueno para practicarlo/demostrarlo. */
 @media (max-width: 768px) {
 
     .box :nth-child(1) { order: 1; }
@@ -18,14 +24,5 @@
     .box :nth-child(5) { order: 4; }
     .box :nth-child(6) { order: 5; }
     .box :nth-child(7) { order: 6; }
-    .box :nth-child(8) { order: 5; }
-    
-    .breed {
-        padding: 1rem;
-    }
-
-    .breed--photo {
-        width: 100%;
-        height: auto;
-    }
+    .box :nth-child(8) { order: 5; }   
 }

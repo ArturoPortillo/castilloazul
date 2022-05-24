@@ -93,18 +93,14 @@ footer {
 .fca {
   display: flex;
   justify-content: center;
+  align-items: flex-end;
   padding-top: 1rem;
-  opacity: 0.5;
+  opacity: 0.2;
 }
 .fca figure figcaption {
   text-align: center;
 }
 
-@media (max-width: 992x) {
-  .fca {
-    visibility: hidden;
-  }
-}
 .card {
   margin: 1rem;
   padding: 1rem;
@@ -122,21 +118,22 @@ footer {
 }
 
 .gallery--title {
-  color: #0a3752;
-  font-family: "Roboto Condensed", sans-serif;
+  color: #178ca4;
 }
 
-.breed {
-  padding: 1rem;
-  background-color: #e8f8f9;
+.box .breed--text {
   display: flex;
   align-items: center;
+  padding: 1rem;
+  background-color: #e8f8f9;
+  color: #0a3752;
+  border: 1px solid #d1edf2;
 }
-
-.breed--photo {
+.box .breed--photo {
   padding: 0;
 }
 
+/* Esto tambien se pudo haber reorganizado con la funcion de "order-sm-{x}" de Bootstrap, pero lo hice asi y me parecio bueno para practicarlo/demostrarlo. */
 @media (max-width: 768px) {
   .box :nth-child(1) {
     order: 1;
@@ -168,15 +165,6 @@ footer {
 
   .box :nth-child(8) {
     order: 5;
-  }
-
-  .breed {
-    padding: 1rem;
-  }
-
-  .breed--photo {
-    width: 100%;
-    height: auto;
   }
 }
 .form {
